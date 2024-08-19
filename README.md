@@ -39,19 +39,19 @@ The starter code includes importing the required dependencies and your API keys 
 The base URL is included in the starter code, along with the search string and query dates. Consult the New York Times Article Search API documentationLinks to an external site.  to help you build your query_url using these variables. If you accidentally delete these variables, they are: # Set the base URL
 url = "https://api.nytimes.com/svc/search/v2/articlesearch.json?"
 
-# Filter for movie reviews with "love" in the headline
-# section_name should be "Movies"
-# type_of_material should be "Review"
+Filter for movie reviews with "love" in the headline
+section_name should be "Movies"
+type_of_material should be "Review"
 filter_query = 'section_name:"Movies" AND type_of_material:"Review" AND headline:"love"'
 
-# Use a sort filter, sort by newest
+Use a sort filter, sort by newest
 sort = "newest"
 
-# Select the following fields to return:
-# headline, web_url, snippet, source, keywords, pub_date, byline, word_count
+Select the following fields to return:
+headline, web_url, snippet, source, keywords, pub_date, byline, word_count
 field_list = "headline,web_url,snippet,source,keywords,pub_date,byline,word_count"
 
-# Search for reviews published between a begin and end date
+Search for reviews published between a begin and end date
 begin_date = "20130101"
 end_date = "20230531"
 
